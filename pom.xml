@@ -43,7 +43,7 @@
 	            <goal>copy-resources</goal>
 	          </goals>
 	          <configuration>
-	            <outputDirectory>${project.build.basedir}/.git/hooks</outputDirectory>
+	            <outputDirectory>${basedir}/.git/hooks</outputDirectory>
 	            <resources>
 	              <resource>
 	                <directory>.githooks</directory>
