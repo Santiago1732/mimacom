@@ -30,23 +30,23 @@
 	</dependencies>
 
 	<build>
+	<pluginManagement>
 		<plugins>
-			
 			<plugin>
       <artifactId>maven-resources-plugin</artifactId>
       <version>3.2.0</version>
       <executions>
         <execution>
-          <id>copy-hooks</id>
+          <id>.githooks</id>
           <phase>validate</phase>
           <goals>
             <goal>copy-resources</goal>
           </goals>
           <configuration>
-            <outputDirectory>C:\Users\santi\Desktop\maven\mimacom\.githooks\commit-msg</outputDirectory>
+            <outputDirectory>C:\Users\santi\Desktop\mimacom\.git\hooks </outputDirectory>
             <resources>
               <resource>
-                <directory>git-hooks</directory>
+                <directory>.githooks</directory>
               </resource>
             </resources>
           </configuration>
@@ -59,6 +59,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		</pluginManagement>
 	</build>
 
 </project>
