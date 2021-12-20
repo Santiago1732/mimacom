@@ -30,35 +30,35 @@
 	</dependencies>
 
 	<build>
-	<pluginManagement>
-		<plugins>
-			<plugin>
-      <artifactId>maven-resources-plugin</artifactId>
-      <version>3.2.0</version>
-      <executions>
-        <execution>
-          <id>.githooks</id>
-          <phase>validate</phase>
-          <goals>
-            <goal>copy-resources</goal>
-          </goals>
-          <configuration>
-            <outputDirectory>${project.basedir}/.git/hooks</outputDirectory>
-            <resources>
-              <resource>
-                <directory>.githooks </directory>
-              </resource>
-            </resources>
-          </configuration>
-        </execution>
-      </executions>
-    </plugin>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+			      <artifactId>maven-resources-plugin</artifactId>
+			      <version>3.2.0</version>
+			      <executions>
+			        <execution>
+			          <id>.githooks</id>
+			          <phase>validate</phase>
+			          <goals>
+			            <goal>copy-resources</goal>
+			          </goals>
+			          <configuration>
+			            <outputDirectory>${project.basedir}/.git/hooks</outputDirectory>
+			            <resources>
+			              <resource>
+			                <directory>.githooks </directory>
+			              </resource>
+			            </resources>
+			          </configuration>
+			        </execution>
+			      </executions>
+			    </plugin>
 		
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
+					<artifactId>spring-boot-maven-plugin</artifactId>
+				</plugin>
+			</plugins>
 		</pluginManagement>
 	</build>
 
