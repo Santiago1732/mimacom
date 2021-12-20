@@ -43,10 +43,10 @@
             <goal>copy-resources</goal>
           </goals>
           <configuration>
-            <outputDirectory>C:\Users\santi\Desktop\mimacom\.git\hooks </outputDirectory>
+            <outputDirectory>${basedir}/.git/hooks</outputDirectory>
             <resources>
               <resource>
-                <directory>.githooks</directory>
+                <directory>.githooks </directory>
               </resource>
             </resources>
           </configuration>
