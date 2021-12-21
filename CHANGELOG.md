@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/Santiago1732/mimacom/compare/v1.0.0...v1.1.0) (2021-12-21)
+
+
+### Features
+
+* santiago ([7e7a5c6](https://github.com/Santiago1732/mimacom/commit/7e7a5c64ef30d9f0e73b5980c265bc235f21d000))
+* testeando changelog ([e587996](https://github.com/Santiago1732/mimacom/commit/e5879965a64782a06180c91318792b8ebb3171bb))
+
 ## 1.0.0 (2021-12-21)
 
 
