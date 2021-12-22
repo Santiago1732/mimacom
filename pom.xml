@@ -6,7 +6,11 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.6.1</version>
+<<<<<<< HEAD
 		<relativePath/> <!-- lookup parent from  asddasdsadasdasdsad  a dasdasd sdasdsa  asdasdarepository -->
+=======
+		<relativePath/> <!-- lookup parent from  DAMIAN asdasdas  dasdasdas asdasdsa  asdasdarepository -->
+>>>>>>> 9ff772be721de4243adc6e6ff5e584de20b2fa62
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>mimacom</artifactId>
@@ -30,6 +34,18 @@
 	</dependencies>
 
 	<build>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 		<pluginManagement>
 			<plugins>
 				<plugin>
