@@ -5,17 +5,13 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.6.1</version>
-<<<<<<< HEAD
-		<relativePath/> <!-- lookup parent from  asddasdsadasdasdsad  a dasdasd sdasdsa  asdasdarepository -->
-=======
-		<relativePath/> <!-- lookup parent from  DAMIAN asdasdas  dasdasdas asdasdsa  asdasdarepository -->
->>>>>>> 9ff772be721de4243adc6e6ff5e584de20b2fa62
+		<version>2.6.2</version>
+		<relativePath/> <!-- lookup paren st from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>mimacom</artifactId>
+	<artifactId>changelogs-conventional</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>mimacom</name>
+	<name>changelogs-conventional</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>1.8</java.version>
@@ -32,49 +28,37 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
+	
 	<build>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 		<pluginManagement>
-			<plugins>
-				<plugin>
-	      <artifactId>maven-resources-plugin</artifactId>
-	      <version>3.2.0</version>
-	      <executions>
-	        <execution>
-	          <id>.githooks</id>
-	          <phase>validate</phase>
-	          <goals>
-	            <goal>copy-resources</goal>
-	          </goals>
-	          <configuration>
-	            <outputDirectory>${basedir}/.git/hooks</outputDirectory>
-	            <resources>
-	              <resource>
-	                <directory>.githooks</directory>
-	              </resource>
-	            </resources>
-	          </configuration>
-	        </execution>
-	      </executions>
-	    </plugin>
-	    
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
+					<plugins>
+						<plugin>
+			      <artifactId>maven-resources-plugin</artifactId>
+			      <version>3.2.0</version>
+			      <executions>
+			        <execution>
+			          <id>.githooks</id>
+			          <phase>validate</phase>
+			          <goals>
+			            <goal>copy-resources</goal>
+			          </goals>
+			          <configuration>
+			            <outputDirectory>${basedir}/.git/hooks</outputDirectory>
+			            <resources>
+			              <resource>
+			                <directory>.githooks</directory>
+			              </resource>
+			            </resources>
+			          </configuration>
+			        </execution>
+			      </executions>
+			    </plugin>	
+					<plugin>
+						<groupId>org.springframework.boot</groupId>
 						<artifactId>spring-boot-maven-plugin</artifactId>
-				</plugin>
-			</plugins>
-		</pluginManagement>
-	</build>
+					</plugin>
+				</plugins>
+			</pluginManagement>
+		</build>
+
 </project>

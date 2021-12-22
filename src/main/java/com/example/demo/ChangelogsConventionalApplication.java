@@ -4,13 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MimacomApplication {
+public class ChangelogsConventionalApplication {
 
-	
-	//test s
-	
 	public static void main(String[] args) {
-		SpringApplication.run(MimacomApplication.class, args);
+		SpringApplication.run(ChangelogsConventionalApplication.class, args);
 	}
 
 }
