@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/Santiago1732/mimacom/compare/v1.1.0...v1.2.0) (2021-12-22)
+
+
+### Features
+
+* asd ([831e802](https://github.com/Santiago1732/mimacom/commit/831e80206033073f42e2d5efd066e2cc08f0075c))
+* probando changelog de nuevo ([9ff772b](https://github.com/Santiago1732/mimacom/commit/9ff772be721de4243adc6e6ff5e584de20b2fa62))
+
+
+### Bug Fixes
+
+* bug ([ffdf505](https://github.com/Santiago1732/mimacom/commit/ffdf5059bd6125b4b72b40c19addf5b2b54fdffb))
+* santi ([5a7f7be](https://github.com/Santiago1732/mimacom/commit/5a7f7beec0427afc60461a048dd750e287a783b9))
+
 ## [1.1.0](https://github.com/Santiago1732/mimacom/compare/v1.0.0...v1.1.0) (2021-12-21)
 
 
