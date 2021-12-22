@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/Santiago1732/mimacom/compare/v1.0.0...v1.0.1) (2021-12-22)
+
+
+### Bug Fixes
+
+* se agregan nuevos comentarios ([027f157](https://github.com/Santiago1732/mimacom/commit/027f157b65a7c58ee58805f936a22b5234f8e1d7))
+
 ## 1.0.0 (2021-12-22)
 
 
